@@ -1,0 +1,79 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*google css*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Playfair Display', serif;
+}
+p,span,input,button{
+    font-family: 'Work Sans', sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/*header part css*/
+.header{
+    width: 100%;
+    background: url(../img/angel.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-item{
+    margin-left: 25px
+}
+.nav-link{
+    color:#ece6e6 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+
+}
+.banner-content{
+    text-align: center;
+    margin: 200px 0;
+    color:white;
+}
+.banner-content h5{
+    text-transform: uppercase !important;
+}
+.banner-content .title{
+    font-size: 48px !important;
+     margin-top: 20px;
+}
+.banner-content .sub-title{
+    font-style: italic;
+    font-size: 56px;
+}
+.scroll-icon{
+    text-align: center;
+}
+.scroll-icon a i{
+    width: 60px ;
+    height: 60px;
+    background: transparent;
+    border: 1px solid white;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
